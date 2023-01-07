@@ -1,0 +1,261 @@
+body{
+    margin :auto;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1400px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 63px;
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    margin-top: 44px;
+}
+
+.liste1, .liste2{
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    padding: 44px 20px 0px;
+    border-top: 2px solid transparent;
+
+}
+
+.liste1:hover, .liste2:hover{
+color: #0065FC;
+border-top: #0065FC 2px solid;
+}
+
+/*---------------------- Styles filtre et recherche ------------------------*/
+
+.recherche h1{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.recherche p{
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/*---------------------- Styles de l'hébergement ------------------------*/
+
+.place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hebergement{
+    width: 910px;
+    height: 626px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.place-hebergement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.plus{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding-left: 44px;
+}
+
+
+.hebergement h2{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.cardHebergement{
+    display: inline-block;
+    width: 246px;
+    height: 199px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 20px #0000002e;
+}
+
+.cardHebergement img{
+    border-radius: 20px 20px 0px 0px;
+    width: 245px;
+    height: 124px;
+    object-fit: cover;
+}
+
+
+.cardHebergement h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 4px;
+    padding-left: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.cardHebergement p{
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 16px;
+    line-height: 9px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 7px;
+}
+
+.star{
+    color: #0065FC;
+    padding-left: 16px;
+}
+
+.populaire{
+    width: 420px;
+    height: 626px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.populaire h2{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+
+.place-populaire{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.cardPopulaire{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    width: 343px;
+    height: 144px;
+    border-radius: 20px;
+    background-color: white;    
+    border: white 5px solid;
+    text-decoration: none;
+    box-shadow: 0 0 20px #0000002e;
+    color: black;
+    margin: auto;
+}
+
+.cardPopulaire img{
+    width: 137px;
+    height: 144px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.populaire-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.populaire-text h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+.populaire-text p{
+    margin-top: 7px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+.star2{
+    color: #0065FC;
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+/*---------------------- Styles des Activités ------------------------*/
+
+.activite{
+    height: 550px;
+}
+
+.activite h3{
+    line-height: 4px;
+    padding-left: 15px;
+}
+
+.placeActivite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardActivite{
+    width: 302px;
+    height: 445px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0000002e;
+    text-decoration: none;
+    color: black;
+}
+
+.cardActivite img{
+    height: 389px;
+    width: 302px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*---------------------- Styles du footer ------------------------*/
+
+footer{
+    background-color: #f2f2f2 ;
+    height: 225px;
+}
+
+.footer-place{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-colonne{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 2rem 2rem;
+    padding-left: 70px ;
+}
+
+.footer-colonne h3{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-left: 0;
+}
+
+.footer-colonne a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0.4em 0px;
+}
