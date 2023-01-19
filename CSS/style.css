@@ -87,7 +87,7 @@ button{
     cursor: pointer;
 }
 
-.loupe{
+#loupe{
     display: none;
 }
 
@@ -177,7 +177,7 @@ margin: 10px 10px 10px 0px;
 }
 
 .plus{
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -197,9 +197,12 @@ margin: 10px 10px 10px 0px;
     background-color: white;
     border: 5px solid white;
     border-radius: 20px;
-    text-decoration: none;
     color: black;
     box-shadow: 0 0 20px #0000002e;
+}
+
+.cardHebergement a{
+    text-decoration: none;
 }
 
 .cardHebergement img{
@@ -232,6 +235,10 @@ margin: 10px 10px 10px 0px;
 .star{
     color: #0065FC;
     padding-left: 16px;
+}
+
+#grey-star{
+    color: #d2d2d2;
 }
 
 /*---------------------- Styles Populaire ------------------------*/
@@ -421,6 +428,13 @@ footer{
 
     }
 
+    .place-hebergement{
+        padding-bottom: 20px;
+    }
+
+    .plus{
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width : 768px) {
@@ -450,7 +464,6 @@ footer{
 
     .liste1:hover, .liste2:hover{
         border-top: none;
-        color: none;
         border-bottom: #0065FC 2px solid;
     }
 
@@ -458,11 +471,11 @@ footer{
         padding: 0px 20px 0px 20px;
     }
 
-    .pas-loupe{
+    button .search{
         display: none;
     }
 
-    .loupe{
+    #loupe{
         display: block;
     }
 
