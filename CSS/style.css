@@ -332,10 +332,7 @@ justify-content: space-between;
     padding-bottom: 60px;
 }
 
-#activite h3{
-    padding: 10px 0px 0px 15px;
-    margin: auto;
-}
+
 
 .placeActivite{
     display: flex;
@@ -358,6 +355,15 @@ justify-content: space-between;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+
+.cardActivite h3{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
 }
 
 /*---------------------- Styles du footer ------------------------*/
@@ -425,7 +431,14 @@ footer{
     .cardActivite img{
         height: 211px;
         width: 100%;
+    }
 
+    .cardActivite h3{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        padding: 0px 0px 0px 10px;
     }
 
     .place-hebergement{
